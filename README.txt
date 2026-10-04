@@ -1,4 +1,4 @@
-Javier BDM PWA v4.2
+Javier BDM PWA v4.3
 
 CRM personal con contactos, actividades, notas y pipeline por año.
 Conserva localStorage javierBDM_pwa_v1 y respaldos v2.
