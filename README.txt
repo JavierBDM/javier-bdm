@@ -1,7 +1,6 @@
-Javier BDM PWA v3
-- Navegación Atrás / Adelante dentro de la app.
-- Pipeline por oportunidad.
-- Cotizado USD y facturado Q1-Q4.
-- Comisión configurable; defaults: 4%, TC 16 MXN/USD, impuestos 35%.
-- Conserva localStorage javierBDM_pwa_v1 y respaldos v2.
-- No contiene data.json.
+Javier BDM PWA v4 — preparada, no desplegada.
+Preserva clave localStorage javierBDM_pwa_v1. Incluye importación incremental de archivos format=Javier BDM Update, aprobados por subconjunto, y restauración de respaldos.
+Importación conserva notas/actividades/historial/pipeline/config actuales, asigna IDs nuevos sin colisiones, retiene identidades dudosas y guarda copia local en javierBDM_pwa_v1_before_update.
+Genera descarga de respaldo previo. Propuestas proposal:true se rechazan.
+No contiene datos privados: el JSON de actualización se entrega separado y nunca se publica con la PWA.
+Validaciones: respaldo real y cambios recientes simulados, reimportación idempotente, protección de fusiones y teléfonos corregidos. Prueba visual en Safari iPhone pendiente.
